@@ -3,7 +3,8 @@
 /**
  * main - Entry point
  *
- * Description: Print the string "Programming is like building a multilingual puzzle" and exit.
+ * Description: Print the string "\"Programming is like building a multilingual
+ * puzzle" and exit.
  * Return: Always 0 (Succees)
  */
 int main(void)
