@@ -13,16 +13,16 @@
 int main(void)
 {
 	int n;
-	char* sign  = "negative";
+	char *sign  = "negative";
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 
-	if ( n > 0 )
+	if (n > 0)
 	{
 		sign = "positive";
 	}
-	else if ( n == 0 )
+	else if (n == 0)
 	{
 		sign = "zero";
 	}
