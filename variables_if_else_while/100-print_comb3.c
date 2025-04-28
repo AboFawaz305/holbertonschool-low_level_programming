@@ -19,7 +19,7 @@ int main(void)
 		{
 			if (d == c)
 				continue;
-			if (c != 0 && d != 1)
+			if (c !=0 || d != 1)
 			{
 				putchar(',');
 				putchar(' ');
