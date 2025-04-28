@@ -15,11 +15,12 @@ int main(void)
 	for (c = 0; c <= 9; c++)
 	{
 		int d;
+
 		for (d = c; d <= 9; d++)
 		{
 			if (d == c)
 				continue;
-			if (c !=0 || d != 1)
+			if (c != 0 || d != 1)
 			{
 				putchar(',');
 				putchar(' ');
