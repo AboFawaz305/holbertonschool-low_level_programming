@@ -1,4 +1,4 @@
-int _putchar(char);
+#include "main.h"
 
 /**
  * print_alphabet - print the alphabet from a to z followed by a newline.
