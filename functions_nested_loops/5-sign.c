@@ -1,0 +1,31 @@
+#include "main.h"
+
+/**
+ * sign - checks the sign of a number and prints the sign
+ *
+ * @n: the number to be checked
+ * Return: 1 if 
+ */
+int print_sign(int n)
+{
+	char sign, ret;
+              
+	if (n > 0)
+	{
+		sign = '+';
+		ret = 1;
+	}
+	else if (n == 0)
+	{
+		sign = '0';
+		ret = 0;
+	}
+	else
+	{
+		sign = '-';
+		ret = -1;
+	}
+
+	_putchar(sign);
+	return ret;
+}
