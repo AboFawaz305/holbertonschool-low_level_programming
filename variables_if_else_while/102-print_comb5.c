@@ -26,7 +26,7 @@ int main(void)
 
 				for (f = 0; f <= 9; f++)
 				{
-					if (e == c && f == d)
+					if (e == c && f <= d)
 						continue;
 					if (c != 0 || d != 0 ||
 							e != 0 || f != 1)
