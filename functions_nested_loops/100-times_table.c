@@ -28,7 +28,7 @@ void print_times_table(int n)
 				_putchar(res2 + '0');
 			else if (b != 0)
 				_putchar(' ');
-			if (res1 != 0)
+			if (res1 != 0 || res2 != 0)
 				_putchar(res1 + '0');
 			else if (b != 0)
 				_putchar(' ');
