@@ -9,6 +9,7 @@
 int main(void)
 {
 	long double f1, f2, n, temp;
+	char* str;
 
 	n = 0;
 	for (f1 = 1, f2 = 2; n < 97; n++)
