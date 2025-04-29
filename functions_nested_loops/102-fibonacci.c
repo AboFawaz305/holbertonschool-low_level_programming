@@ -11,7 +11,7 @@ int main(void)
 	unsigned long int f1, f2, n, temp;
 
 	n = 0;
-	for (f1 = 1, f2 = 2; n < 50; n++)
+	for (f1 = 1, f2 = 2; n < 49; n++)
 	{
 	temp = f2;
 
@@ -19,6 +19,7 @@ int main(void)
 		f2 = f2 + f1;
 		f1 = temp;
 	}
+	printf("%ld", f1);
 	putchar('\n');
 
 	return (0);
