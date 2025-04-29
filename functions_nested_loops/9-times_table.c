@@ -13,7 +13,7 @@ void times_table(void)
 		{
 			int res, res0, res1;
 
-			res = a*b;
+			res = a * b;
 			res0 = res % 10;
 			res1 = res / 10;
 			if (res1 != 0)
