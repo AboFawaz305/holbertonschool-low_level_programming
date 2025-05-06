@@ -12,6 +12,7 @@ void more_numbers(void)
 		for (j = 0; j < 15; j++)
 		{
 			int n1, n0;
+
 			n1 = j / 10;
 			n0 = j % 10;
 			if (n1 != 0)
