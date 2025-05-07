@@ -18,6 +18,5 @@ int main(void)
 			printf("%d", i);
 		printf(" ");
 	}
-	putchar('\n');
 	return EXIT_SUCCESS;
 }
