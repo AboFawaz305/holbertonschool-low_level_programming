@@ -4,7 +4,7 @@
 /**
  * main - Fizz-Buzz test
  *
- * Description: Do the famous Fizz-Buzz test.
+ * Return: Always (0) Success
  */
 int main(void)
 {
