@@ -18,6 +18,6 @@ int main(void)
 			printf("%d", i);
 		printf(" ");
 	}
-	printf("Buzz");
+	printf("Buzz\n");
 	return EXIT_SUCCESS;
 }
