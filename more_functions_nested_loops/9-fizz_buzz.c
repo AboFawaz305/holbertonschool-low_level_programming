@@ -3,6 +3,8 @@
 
 /**
  * main - Fizz-Buzz test
+ *
+ * Description: Do the famous Fizz-Buzz test.
  */
 int main(void)
 {
@@ -19,5 +21,5 @@ int main(void)
 		printf(" ");
 	}
 	printf("Buzz\n");
-	return EXIT_SUCCESS;
+	return (EXIT_SUCCESS);
 }
