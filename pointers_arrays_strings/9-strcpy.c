@@ -1,6 +1,3 @@
-#include <stdlib.h>
-#include <string.h>
-
 /**
  * _strcpy - copy src into dst
  * @src: the source string address
@@ -10,6 +7,13 @@
  */
 char *_strcpy(char *dst, char *src)
 {
-	mempcpy(dst, src, strlen(src));
+	int i = 0;
+
+	while (src[i])
+	{
+		dst[i] = src[i];
+		i++;
+	}
+	dst[i] = '\0';
 	return dst;
 }
