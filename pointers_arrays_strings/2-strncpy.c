@@ -1,8 +1,8 @@
 /**
- * _strncat - concatenate dest and src and store the result inside dest
- * @dest: the concatenated string destination address
- * @src: the address of string to concatenate with dest
- * @n: the maximum number of bytes to concatenate from src
+ * _strncpy - copy at most n bytes from src to dest 
+ * @dest: the copyed string destination address
+ * @src: the address of string to copy into dest
+ * @n: the maximum number of bytes to copy from src
  *
  * Return: the destination string address
  */
