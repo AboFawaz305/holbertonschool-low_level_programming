@@ -1,5 +1,5 @@
 /**
- * memset - fills the first n bytes in s with a constant byte
+ * _memset - fills the first n bytes in s with a constant byte
  * @s: the address of the memory
  * @b: the constant byte to fill the memory
  * @n: the 
