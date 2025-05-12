@@ -1,5 +1,5 @@
 /**
- * _strncpy - copy at most n bytes from src to dest 
+ * _strncpy - copy at most n bytes from src to dest
  * @dest: the copyed string destination address
  * @src: the address of string to copy into dest
  * @n: the maximum number of bytes to copy from src
