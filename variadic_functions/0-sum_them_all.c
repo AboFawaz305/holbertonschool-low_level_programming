@@ -1,7 +1,7 @@
 #include <stdarg.h>
 
 /**
- * sum_them_all - return the sum for all the given arguments 
+ * sum_them_all - return the sum for all the given arguments
  * @n: the number of numbers to sum
  * @num*: a number to sum
  *
@@ -10,7 +10,8 @@
 int sum_them_all(const unsigned int n, ...)
 {
 	va_list ap;
-	int unsigned i, acc;
+	int acc;
+	unsigned int i;
 
 	if (n == 0)
 		return (0);
