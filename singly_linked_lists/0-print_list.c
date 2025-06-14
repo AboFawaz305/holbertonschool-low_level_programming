@@ -4,24 +4,24 @@
 
 /**
  * print_list - print a singly linked list
- * @h: a singly linked list
+ * @h: pointer to the head of the list
  *
- * Return: the number of elements in h
+ * Return: number of elements in the list
  */
-size_t print_list(const list_t *h)
+size_t print_list(const struct list_s *h)
 {
-	size_t i = 0;
-	const list_t *current = h;
+	size_t count = 0;
 
-	while (current != NULL)
+	while (h)
 	{
-		if (current->str == NULL)
-			printf("[%d] %s\n", current->len, "(nil)");
+		if (h->str)
+			printf("[%u] %s\n", h->len, h->str);
 		else
-			printf("[%d] %s\n", current->len, current->str);
-		current = current->next;
-		i++;
+			printf("[0] (nil)\n");
+
+		h = h->next;
+		count++;
 	}
 
-	return (i);
+	return (count);
 }
